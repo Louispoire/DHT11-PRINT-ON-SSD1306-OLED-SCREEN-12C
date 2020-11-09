@@ -2,6 +2,8 @@
 #define DHT11Pin 2
 #define DHTType DHT11
 //OLED
+//In order to make everyhting work, you have to add new librairies. To do so,
+//in Arduino, go to tools -> manage librairies -> search SSD1306 and DHT11 -> add both
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
